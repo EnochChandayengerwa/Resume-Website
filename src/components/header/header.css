@@ -1,0 +1,159 @@
+header{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../../assets/alessio-soggetti-17_tB-oI0ao-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent,transparent,transparent,var(--color-bg));
+}
+
+.header__container {
+  height: 100%;
+}
+
+.header__items{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header__text {
+  margin-top: 60%;
+  font-size: larger;
+}
+
+.cta{
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  max-width: 300px;
+  height: 30rem;
+  margin: 60% auto;
+  background: linear-gradient(rgb(16, 21, 25,0.5), transparent);
+  border-top-right-radius: 10rem;
+  border-top-left-radius: 10rem;
+  font-size: 3rem;
+  padding: 3rem 5rem;
+  flex-wrap: wrap;
+  color: rgb(222, 233, 236);
+  gap: 1.5rem;
+}
+
+.header__socials{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 8rem;
+  font-size: 2rem;
+}
+
+.header__socials::after{
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+@media screen and (max-width:1024px) {
+  header{
+    height: 100vh;
+  }
+  .container{
+    width: var(--container-width-md);
+  }
+
+  section{
+    margin-top: 1rem;
+  }
+
+  .header__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header__text{
+    margin-top: 30%;
+  }
+
+  .cta{
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__icons{
+    margin-top: 0.7rem;
+    width: 15rem;
+    padding: 3rem;
+    font-size: 2rem;
+    gap: 1rem;
+    background: rgb(16, 21, 25,0.5);
+  }
+
+  .header__socials{
+    /* background-color: black; */
+    font-size: 1.5rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+  header{
+    height: 100vh;
+  }
+  .container{
+    width: var(--container-width-md);
+  }
+  .header__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+  }
+
+  .header__text {
+    margin-top: 20%;
+    font-size: larger;
+  }
+
+  .cta{
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__icons{
+    margin-top: 1rem;
+    width: 15rem;
+    padding: 3rem;
+    font-size: 2rem;
+    gap: 1rem;
+    background: rgb(16, 21, 25,0.5);
+    width: 12rem;
+  }
+
+  .header__socials{
+    /* background-color: black; */
+    display: none;
+  }
+  
+}

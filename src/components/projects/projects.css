@@ -1,0 +1,30 @@
+section{
+    height: 100vh;
+    margin-top: 8rem;
+}
+
+.projects__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.project{
+    background: var(--color-bg-variant);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.project img{
+    border-radius: 1rem;
+    background-size: cover;
+    height: 10rem;
+}
+
+.pb_buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+

@@ -1,0 +1,13 @@
+.contact_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 10rem;
+}
+
+div{
+    height: 50%vh;
+    text-align: center;
+}
