@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Resume-Website/static/css/main.efaf4805.css",
+    "main.js": "/Resume-Website/static/js/main.beb6dc0a.js",
+    "static/media/alessio-soggetti-17_tB-oI0ao-unsplash.jpg": "/Resume-Website/static/media/alessio-soggetti-17_tB-oI0ao-unsplash.1da8e767a41e5886b52f.jpg",
+    "static/media/Profile 2.jpg": "/Resume-Website/static/media/Profile 2.63e7077a83852c78aba8.jpg",
+    "static/media/msg.jpg": "/Resume-Website/static/media/msg.f649d84ef40c8716e1d0.jpg",
+    "static/media/news.png": "/Resume-Website/static/media/news.a020fc3371208e0cff78.png",
+    "static/media/file.webp": "/Resume-Website/static/media/file.3798bdeb28db25080b6f.webp",
+    "static/media/luno.webp": "/Resume-Website/static/media/luno.16095be1d9fc5300c037.webp",
+    "static/media/mark.jpg": "/Resume-Website/static/media/mark.15db5b5c61ac49ff3f4f.jpg",
+    "index.html": "/Resume-Website/index.html",
+    "main.efaf4805.css.map": "/Resume-Website/static/css/main.efaf4805.css.map",
+    "main.beb6dc0a.js.map": "/Resume-Website/static/js/main.beb6dc0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efaf4805.css",
+    "static/js/main.beb6dc0a.js"
+  ]
+}
